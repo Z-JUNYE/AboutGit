@@ -41,3 +41,26 @@ Git会告知文件处于什么状态
 
     git add "file name"
 
+![VScode截图](./images/P9.png "VScode截图")  
+执行`git add .`后不会有反馈
+可以通过`git status`指令再次查看文件状态：
+
+![VScode 截图](./images/P10.png "VScode截图")
+
+此前提交的文件已经处于可以提交的状态。
+
+## 提交文件
+已经处于`stage`状态的文件可以通过以下命令提交：
+
+    git commit -m "comment"
+
+![VScode截图](./images/P11.png "VScode截图")
+此时文件已经处于提交状态 committed state。  
+
+## 推送库到Github
+可以通过以下指令推送库：
+
+    git push
+
+![VScode截图](./images/P12.png "VScode截图")
+
